@@ -78,3 +78,6 @@ save_data_for_R(adata,
                 save_dir=dir,
                 layer='counts',
                )
+
+
+#While loading, remember that the count matrix is to be transposed
