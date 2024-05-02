@@ -23,7 +23,7 @@ rownames(seo@meta.data)<-colnames(seo)
 seo <- NormalizeData(seo)
 
 
-## Add precimputed dimensionality reductions save in cell metatdata
+## Add precomputed dimensionality reductions save in cell metatdata
 
 seo@reductions$umap2<-seo@reductions$umap
 head(seo@reductions$umap@cell.embeddings)
